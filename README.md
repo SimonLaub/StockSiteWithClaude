@@ -9,4 +9,5 @@ The site makes forecasts both on historic data, and on data from today.<br>
 <br>
 Claude usage:<br>
 <img src="Claude.jpg" alt="Claude overview" style="width: 300px; height: auto;"><br>
+<br>
 Original (2018) Flask <a href="https://github.com/SimonLaub/FlaskProject">website</a>.
