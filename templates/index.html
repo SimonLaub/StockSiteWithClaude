@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="da">
+<head>
+    <meta charset="utf-8">
+    <title>StockSite</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="main-nav">
+        <a href="/" class="active">Historik</a>
+        <a href="/today">I dag</a>
+    </nav>
+    <h1>Aktie-forudsigelse</h1>
+    <div class="controls">
+        <label for="date-picker">Vælg en dato:</label>
+        <input type="date" id="date-picker" min="{{ min_date }}" max="{{ max_date }}" value="{{ max_date }}">
+        <button id="show-btn">Vis forudsigelse</button>
+    </div>
+    <p id="error-message" class="error" hidden></p>
+    <table id="results">
+        <thead>
+            <tr>
+                <th>Aktie</th>
+                <th>Forudsagt kurs</th>
+                <th>Forudsagt retning</th>
+                <th>Faktisk kurs</th>
+                <th>Faktisk retning</th>
+                <th>Forskel</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
