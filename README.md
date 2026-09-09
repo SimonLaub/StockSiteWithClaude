@@ -1,5 +1,5 @@
 # Stock site with Claude
 Given general specifications, Claude coded a <i>Stock site</i> <br>
-to look at stocks. <br>
-The site makes Forecasts both om historic data and on present data<br>
+to look at stock prices. <br>
+The site makes forecasts both on historic data, and on data from today.<br>
 
