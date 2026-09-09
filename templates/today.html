@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="da">
+<head>
+    <meta charset="utf-8">
+    <title>StockSite</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="main-nav">
+        <a href="/">Historik</a>
+        <a href="/today" class="active">I dag</a>
+    </nav>
+    <h1>Dagens kurser og forventning</h1>
+    <div class="controls">
+        <button id="show-btn">Vis dagens kurser</button>
+    </div>
+    <p id="error-message" class="error" hidden></p>
+    <table id="results">
+        <thead>
+            <tr>
+                <th>Aktie</th>
+                <th>Dagens kurs</th>
+                <th>Forventet kurs</th>
+                <th>Forventet retning</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="{{ url_for('static', filename='today.js') }}"></script>
+</body>
+</html>
