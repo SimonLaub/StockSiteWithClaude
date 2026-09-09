@@ -1,0 +1,17 @@
+STOCKS = {
+    "AAPL": "Apple",
+    "MSFT": "Microsoft",
+    "GOOGL": "Alphabet",
+    "AMZN": "Amazon",
+    "NVDA": "Nvidia",
+    "META": "Meta",
+    "TSLA": "Tesla",
+    "JPM": "JPMorgan",
+    "V": "Visa",
+    "JNJ": "Johnson & Johnson",
+    "NOVO-B.CO": "Novo Nordisk",
+    "MAERSK-B.CO": "Mærsk",
+    "DSV.CO": "DSV",
+    "VWS.CO": "Vestas",
+    "ORSTED.CO": "Ørsted",
+}
